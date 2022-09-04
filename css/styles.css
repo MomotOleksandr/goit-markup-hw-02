@@ -75,6 +75,9 @@
 .main-styles {
     
 }
+.hiden-h {
+    color: transparent;
+}
 .buttons {
     list-style-type: none;
 }
