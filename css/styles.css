@@ -1,0 +1,164 @@
+:root {
+    --primary-textcolor: #212121;
+    --secondary-textcolor: #757575;
+    --special-textcolor: #2196F3;
+    --first-logocolor: #2196F3;
+    --second-logocolor: #000000;
+    --third-logocolor: #FFFFFF;
+    --specialbutton-color: #FFFFFF;
+    --header-backgroundcolor: #FFFFFF;
+    --button-backgroundcolor: #F5F4FA;
+    --special-backgroundcolor: #2196F3;
+    --main-backgroundcolor: #F5F5F5;
+    --section-backgroundcolor: #EEEEEE;
+    --footer-backgroundcolor: #2F303A;
+    --special-contactcolor: rgba(255, 255, 255, 0.6);
+    --special-shadowcolor: rgba(0, 0, 0, 0.25);
+}
+
+
+.body-styles {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-textcolor);
+    }
+.header-styles {
+    background-color: var(--header-backgroundcolor);
+}
+.logo-style {
+    font-family: "Raleway"; 
+    font-size: 26px;
+    line-height: 1.19px;
+    text-decoration: none;
+}
+.firstpart-logo {
+    color: var(--first-logocolor);
+}
+.secondpart-logoheader {
+    color: var(--second-logocolor);
+}
+.navmenu {
+    font-family: 'Roboto'
+}
+.navmenu-items {
+    list-style-type: none;
+}
+
+.navmenu-item,
+.contact-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.28px; 
+    text-decoration: none;
+    color: var(--primary-textcolor);
+}
+.navmenu-item:hover,
+.contact-item:hover,
+.navmenu-item:focus,
+.contact-item:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    color: var(--special-textcolor);
+}
+.contact {
+
+}
+.contact-items {
+    list-style-type: none;
+}
+
+
+
+.main-styles {
+    
+}
+.buttons {
+    list-style-type: none;
+}
+
+button {cursor: pointer;}
+
+.buttons-item {
+    
+}
+.buttons-itembox {
+    background-color: var(--button-backgroundcolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.48px; 
+    color: var(--primary-textcolor);
+}
+.buttons-itembox:hover,
+.buttons-itembox:focus {
+    background-color: var(--special-backgroundcolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    color: var(--specialbutton-color);
+}
+.section-styles {
+    
+}
+.section {
+    list-style-type: none;
+}
+.section-item {
+    background-color: var(--main-backgroundcolor);
+}
+.section-image {
+
+}
+.section-name {
+    font-size: 18px;
+    line-height: 1.71; 
+    letter-spacing: 1.08px;
+    background-color: var(--section-backgroundcolor);
+    }
+.section-type {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
+    color: var(--secondary-textcolor);
+    text-shadow: 4px 0px 4px var(--special-shadowcolor);
+    background-color: var(--section-backgroundcolor);
+}
+
+.footer-styles {
+    background-color: #2F303A;
+}
+.secondpart-logofooter {
+    color: var(--third-logocolor);
+}
+.adress {
+    list-style-type: none;
+}
+.adress-itemmap {
+    color: var(--specialbutton-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.adress-itemmail {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    color: var(--special-contactcolor);
+}
+.adress-itemtel {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    color: var(--special-contactcolor);
+    text-shadow: 4px 0px 4px var(--special-shadowcolor);
+}
