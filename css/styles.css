@@ -18,6 +18,8 @@ body {
     background-color: var(--primary-backgroundcolor);
     color: var(--primary-textcolor);
     }
+
+/* стилі для хедера*/
 .header-styles {
     
 }
@@ -70,6 +72,7 @@ body {
     list-style-type: none;
 }
 
+/*стилі основних блоків*/
 .main-styles {
     
 }
@@ -192,6 +195,7 @@ button {
     color: var(--secondary-textcolor);
 }
 
+/*стилі футера*/
 .footer-styles {
     background-color: var(--special-backgroundcolor);
 }
