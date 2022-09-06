@@ -14,7 +14,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     letter-spacing: 0.03em;
     background-color: var(--primary-backgroundcolor);
     color: var(--primary-textcolor);
@@ -97,6 +96,18 @@ body {
 }
 .hiden-h {
     visibility: hidden;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .buttons {
     list-style-type: none;
@@ -194,7 +205,7 @@ button {
 }
 .section-type {
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.88;
     color: var(--secondary-textcolor);
 }
 
